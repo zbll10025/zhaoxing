@@ -50,6 +50,6 @@ public class Pool
     public GameObject CreatObject(string path)
     {
         Debug.Log("ря╪сть");
-      return GameObject.Instantiate(Resources.Load("ReEnemy/Project/Rem5Projectile")) as GameObject;
+      return GameObject.Instantiate(Resources.Load("Prefabs/Enemy/ReEnemy/Project/Rem5Projectile")) as GameObject;
     }
 }
