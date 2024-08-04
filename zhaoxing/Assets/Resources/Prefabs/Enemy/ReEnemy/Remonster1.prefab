@@ -107,14 +107,13 @@ GameObject:
   - component: {fileID: 2934487417506632005}
   - component: {fileID: 313069858415521735}
   - component: {fileID: 5170643536707272034}
-  - component: {fileID: 323618221409402193}
   m_Layer: 0
   m_Name: Remonster1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &510024635668202417
 Transform:
   m_ObjectHideFlags: 0
@@ -169,8 +168,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1821218957
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -5695041549867750883, guid: 946fe0ca3e1225a47a8a66e2788361cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -243,7 +242,7 @@ MonoBehaviour:
         Bool Parameter","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"findPlayer"},"SharedBoolboolValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"BooleansetOnce":false},{"Type":"Most1Rush","NodeData":{"Offset":"(168.333328,140)"},"ID":17,"Name":"Most
         1 Rush","Instant":true,"Vector3mostPosition":"(0,0,0)","Vector2playerDirection":"(0,0)","SingleplayerDistance":0,"SingleR":0.1}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(289.1662,180)"},"ID":18,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetBoolParameter","NodeData":{"Offset":"(-123.333496,147.500488)"},"ID":19,"Name":"Set
         Bool Parameter","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"findPlayer"},"SharedBoolboolValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"BooleansetOnce":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(192.499939,120)"},"ID":20,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(192.499939,143.333252)"},"ID":21,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Most1Patorl","NodeData":{"Offset":"(-97.43938,192.921051)"},"ID":22,"Name":"Most
-        1 Patorl","Instant":true,"TransformA":0,"TransformB":1,"SingleR":0.1,"Transform[]N":[null,null],"Int32cnt":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(190.608978,193.689819)"},"ID":23,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]}}'
+        1 Patorl","Instant":true,"TransformA":0,"TransformB":1,"SingleR":0.5,"Transform[]N":[null,null],"Int32cnt":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(190.608978,193.689819)"},"ID":23,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]}}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -405,14 +404,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   Enemytransform: {fileID: 0}
-  phy: {fileID: 0}
   rig: {fileID: 0}
   currentscal: 0
+  isRightLocalscal: 0
   patorlSpeed: 1
   rushSpeed: 2
   currentsSpeed: 0
   ani: {fileID: 0}
+  hp: 0
   isdead: 0
+  isGround: 0
+  attackValue: 0
   AttackAreac: {fileID: 0}
   behaviorTree: {fileID: 0}
   player: {fileID: 0}
@@ -421,22 +423,3 @@ MonoBehaviour:
   ishit: 0
   hitForce: 1
   most1PlayerCheck: {fileID: 0}
---- !u!114 &323618221409402193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2266940899374642575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0ffe237d2a50d44b54cba6c60b6e30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bodyrig: {fileID: 0}
-  isPlatform: 0
-  offestground: {x: 0, y: 0}
-  R: 0
-  Platform:
-    serializedVersion: 2
-    m_Bits: 0

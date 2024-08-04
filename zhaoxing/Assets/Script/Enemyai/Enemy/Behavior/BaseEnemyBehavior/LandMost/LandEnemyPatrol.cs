@@ -48,14 +48,29 @@ public class LandEnemyPatrol : Action
             //Debug.Log(direction);
             Most.currentsSpeed = Most.patorlSpeed;
             Most.rig.velocity = new Vector2(direction.x * Most.patorlSpeed, direction.y);
-            if (-direction.x > 0)
+            if (!Most.isRightLocalscal)
             {
-                Most.transform.localScale = new Vector2(1, 1);
+                   if (-direction.x > 0)
+                    {
+                        Most.transform.localScale = new Vector2(1, 1);
+                    }
+                    else if (-direction.x < 0)
+                    {
+                        Most.transform.localScale = new Vector2(-1, 1);
+                    }
             }
-            else if (-direction.x < 0)
+            else
             {
-                Most.transform.localScale = new Vector2(-1, 1);
+                if (direction.x > 0)
+                {
+                    Most.transform.localScale = new Vector2(1, 1);
+                }
+                else if (direction.x < 0)
+                {
+                    Most.transform.localScale = new Vector2(-1, 1);
+                }
             }
+           
         }
         return TaskStatus.Running;
 

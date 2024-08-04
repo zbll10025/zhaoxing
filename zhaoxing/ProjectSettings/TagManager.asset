@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Platform
+  - zidanag
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - Platform
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Enemy
+  - Zidang
+  - Player
   - 
   - 
   - 
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 2473748339
     locked: 0

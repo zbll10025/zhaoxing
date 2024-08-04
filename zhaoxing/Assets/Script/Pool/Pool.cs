@@ -24,18 +24,27 @@ public class Pool
     {
           if (_pool.Count != 0)
         {
+          
             return _pool.Dequeue();
+          
         }
         else
         {
+            
             return CreatObject(path);
         }
     }
 
     public void Recycle(GameObject obj)
     {
+        if (obj.GetComponent<Rigidbody2D>()!=null)
+        {
+            obj.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        }
         obj.SetActive(false);
         _pool.Enqueue(obj);
+        
+
     }
 
     public void ClearPool()
@@ -49,7 +58,8 @@ public class Pool
 
     public GameObject CreatObject(string path)
     {
-        Debug.Log("ря╪сть");
-      return GameObject.Instantiate(Resources.Load("Prefabs/Enemy/ReEnemy/Project/Rem5Projectile")) as GameObject;
+       
+       
+      return GameObject.Instantiate(Resources.Load(path)) as GameObject;
     }
 }

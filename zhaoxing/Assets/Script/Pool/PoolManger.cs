@@ -27,6 +27,7 @@ public class PoolManger
             dic_Pool.Add(name, pool);
         }
         return pool.Get(path);
+        //被调用后要激活gamobject
     }
 
 
@@ -34,8 +35,11 @@ public class PoolManger
     {
         if (dic_Pool.TryGetValue(name, out var pool))
         {
+          
             dic_Pool[name].Recycle(a);
         }
+        
+        
     }
     
     public void ClearPool(string name)

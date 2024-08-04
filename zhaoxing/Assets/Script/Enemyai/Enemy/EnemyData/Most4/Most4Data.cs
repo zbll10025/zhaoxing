@@ -9,7 +9,7 @@ public class Most4Data : LandMost
     protected override void Awake()
     {
         base.Awake();
-        AttackAreac = GameObject.Find("Most4AttackAcrea").GetComponent<AttackAreac>();
+        AttackAreac = GameObject.Find("AttackAcrea").GetComponent<AttackAreac>();
         Most4PlayerCheck = transform.Find("PlayerCheck").gameObject.GetComponent<Most4PlayerCheck>();
     }
 }

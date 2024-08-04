@@ -10,14 +10,15 @@ using Cysharp.Threading.Tasks;
 public class LandMost : BaseEnemy
     {
  
-        public AttackAreac AttackAreac;
+        
+       //前十个地面怪物检测组件的方法在各自的子类里
         public BehaviorTree behaviorTree;
-        public Most4Hit mosthit;
+
         public GameObject player;
         public Vector2 playerDirection;
         public float playerDistance;
-         public bool ishit;
-        public float hitForce;
+       
+       
         protected override void Awake()
         {
            base.Awake();
@@ -34,7 +35,7 @@ public class LandMost : BaseEnemy
             GetPlayerDirction();
             GetPlayerDistance();
         //按空格受伤触发
-        if (Input.GetKeyDown(KeyCode.Space)){
+        if (Input.GetKeyDown(KeyCode.P)){
 
             Onhit();
         }
@@ -44,12 +45,37 @@ public class LandMost : BaseEnemy
 
         public virtual void Onhit()
         {
-          ishit = true;
-           Vector2 a = -playerDirection*hitForce;
-         rig.AddForce(a, ForceMode2D.Impulse);
+            ishit = true;
+            Vector2 a = -playerDirection*hitForce;
+            rig.AddForce(a, ForceMode2D.Impulse);
+            hp -= 20;
+        if (!isRightLocalscal)
+        {
+            if (-playerDirection.x > 0)
+            {
+                this.gameObject.transform.localScale = new Vector3(1, 1);
+            }
+            else
+            {
+                this.gameObject.transform.localScale = new Vector3(-1, 1);
+            }
+        }
+        else {
+            if (playerDirection.x > 0)
+            {
+                this.gameObject.transform.localScale = new Vector3(1, 1);
+            }
+            else
+            {
+                this.gameObject.transform.localScale = new Vector3(-1, 1);
+            }
+
         }
 
-        public void GetPlayerObject(){
+
+    }
+
+    public void GetPlayerObject(){
             if (player == null)
             {
                 player = GameObject.Find("Player");
@@ -58,13 +84,51 @@ public class LandMost : BaseEnemy
         }
         public void GetPlayerDirction()
         {
+        GetPlayerObject();
         if (player != null)
            playerDirection = (player.transform.position - Enemytransform.position).normalized;
         }
 
         public void GetPlayerDistance()
         {
-        if(player != null)
+        GetPlayerObject();
+        if (player != null)
              playerDistance = math.abs(player.transform.position.x - Enemytransform.position.x);
         }
+
+        public void FixDirc()
+        {
+          LandMost landEnemy = this.GetComponent<LandMost>();
+        
+        if (!landEnemy.isRightLocalscal)
+        {
+            if (-landEnemy.playerDirection.x > 0)
+            {
+                landEnemy.gameObject.transform.localScale = new Vector3(1, 1, 1);
+            }
+            else
+            {
+                landEnemy.gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            }
+        }
+        else
+        {
+            if (landEnemy.playerDirection.x > 0)
+            {
+                landEnemy.gameObject.transform.localScale = new Vector3(1, 1, 1);
+            }
+            else
+            {
+                landEnemy.gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            }
+        }
+    } 
+
+       
+
+    public virtual void CancelAniAttack()
+    {
+        
+        ani.SetBool("isAttack", false);
     }
+}
