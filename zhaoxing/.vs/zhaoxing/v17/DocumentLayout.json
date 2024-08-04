@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\zhaoxing\\zhaoxing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|d:\\zhaoxing\\zhaoxing\\assets\\script\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hero\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\landmost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\landmost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|d:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\most19\\most19data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemydata\\most19\\most19data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\behavior\\baseenemybehavior\\landmost\\landenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\behavior\\baseenemybehavior\\landmost\\landenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|d:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemyeffect\\mostbulleteffect\\basemostbulleteffect\\mostbulletlunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemyeffect\\mostbulleteffect\\basemostbulleteffect\\mostbulletlunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|d:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemyeffect\\mostbulleteffect\\most17\\most17bulletlunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemyeffect\\mostbulleteffect\\most17\\most17bulletlunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemyeffect\\mostbulleteffect\\most17\\most17bulletlunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|d:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\behavior\\baseenemybehavior\\landmost\\landenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\behavior\\baseenemybehavior\\landmost\\landenemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemyeffect\\attackeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\zhaoxing\\zhaoxing\\Assets\\Most9AttackAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Most9AttackAnimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\landmost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\landmost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai\\enemy\\enemydata\\baseenemydata\\baseenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDB0B980-6F28-5AB9-1976-930F42C955C4}|Assembly-CSharp.csproj|D:\\zhaoxing\\zhaoxing\\assets\\script\\enemyai\\enemy\\enemydata\\most8\\most8data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,11 +170,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MostPlayerHpCheck.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\MostPlayerHpCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\MostPlayerHpCheck.cs",
@@ -179,15 +187,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MostBulletLunch.cs",
-              "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
-              "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
-              "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAgAAAAEAAAA",
+              "DocumentIndex": 3,
+              "Title": "Most19Data.cs",
+              "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most19\\Most19Data.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most19\\Most19Data.cs",
+              "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most19\\Most19Data.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most19\\Most19Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T02:20:23.446Z",
+              "WhenOpened": "2024-08-04T13:05:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hero.cs",
+              "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Hero\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Hero\\Hero.cs",
+              "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Hero\\Hero.cs",
+              "RelativeToolTip": "Assets\\Script\\Hero\\Hero.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:04:02.071Z",
               "EditorCaption": ""
             },
             {
@@ -195,8 +216,25 @@
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "MostBulletLunch.cs",
+              "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
+              "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\BaseMostBulletEffect\\MostBulletLunch.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAABdwAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T02:20:23.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Most17BulletLunch.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\Most17\\Most17BulletLunch.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\Most17\\Most17BulletLunch.cs",
@@ -204,16 +242,11 @@
               "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\MostBulletEffect\\Most17\\Most17BulletLunch.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAswAQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T02:20:13.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-08-04T02:20:13.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AttackEffect.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\AttackEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\AttackEffect.cs",
@@ -225,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Most5AttackEffect.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\Most5\\Most5AttackEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyEffect\\Most5\\Most5AttackEffect.cs",
@@ -237,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Most9AttackAnimation.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Most9AttackAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Most9AttackAnimation.cs",
@@ -248,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "DebugUpdater.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.9\\Runtime\\Debugging\\DebugUpdater.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@14.0.9\\Runtime\\Debugging\\DebugUpdater.cs",
@@ -260,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AttackAreac.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseAction\\AttackAreac.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseAction\\AttackAreac.cs",
@@ -272,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Most8Data.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most8\\Most8Data.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most8\\Most8Data.cs",
@@ -284,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Most8AttackAcreaCoditional.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\Most8\\Most8AttackAcreaCoditional.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\Most8\\Most8AttackAcreaCoditional.cs",
@@ -296,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Most8Fire.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most8\\Most8Fire.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most8\\Most8Fire.cs",
@@ -308,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Most8FireAnimation.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Animation\\Most8\\Most8FireAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Animation\\Most8\\Most8FireAnimation.cs",
@@ -320,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Most6AttackAAnimation.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Animation\\Most6\\Most6AttackAAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Animation\\Most6\\Most6AttackAAnimation.cs",
@@ -332,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Most8AttackAnimation.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Animation\\Most8\\Most8AttackAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Animation\\Most8\\Most8AttackAnimation.cs",
@@ -344,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Most5Attack.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most5\\Most5Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most5\\Most5Attack.cs",
@@ -356,19 +389,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "BaseEnemy.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\BaseEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\BaseEnemy.cs",
               "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\BaseEnemy.cs",
               "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\BaseEnemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T05:01:30.65Z"
+              "WhenOpened": "2024-08-01T05:01:30.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "AttackAreac.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\AttackAreac.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\AttackAreac.cs",
@@ -379,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "PlayerCheck.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\PlayerCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\PlayerCheck.cs",
@@ -390,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Most5HutAnimation.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Animation\\Most5\\Most5HutAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Animation\\Most5\\Most5HutAnimation.cs",
@@ -402,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "LandMostHit.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandMostHit.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandMostHit.cs",
@@ -414,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Most5PlayerCheck.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most5\\Most5PlayerCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most5\\Most5PlayerCheck.cs",
@@ -426,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "TaskTarget.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Tasksystem\\Target\\TaskTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tasksystem\\Target\\TaskTarget.cs",
@@ -438,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "TaskManage.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Tasksystem\\TaskManage.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tasksystem\\TaskManage.cs",
@@ -450,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "TalkManger.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\XNode\\TalkManger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\XNode\\TalkManger.cs",
@@ -462,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TaskDetails.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Tasksystem\\TaskDetails.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tasksystem\\TaskDetails.cs",
@@ -474,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "DialogueNode.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\XNode\\Node\\DialogueNode.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\XNode\\Node\\DialogueNode.cs",
@@ -486,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "DelegateTask.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\XNode\\Node\\DelegateTask.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\XNode\\Node\\DelegateTask.cs",
@@ -498,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Enum.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Tasksystem\\Enum.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tasksystem\\Enum.cs",
@@ -510,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Most4Attack.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\Most4\\Most4Attack.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\Most4\\Most4Attack.cs",
@@ -522,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "XNodeGraph.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\XNode\\XNodeGraph.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\XNode\\XNodeGraph.cs",
@@ -534,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "MostDead.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\MostDead.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\MostDead.cs",
@@ -546,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "PoolManger.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Pool\\PoolManger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Pool\\PoolManger.cs",
@@ -558,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Pool.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Pool\\Pool.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Pool\\Pool.cs",
@@ -570,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LandMostRush.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandMostRush.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandMostRush.cs",
@@ -582,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Most4Data.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most4\\Most4Data.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\Most4\\Most4Data.cs",
@@ -594,20 +628,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LandEnemyPatrol.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandEnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandEnemyPatrol.cs",
               "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandEnemyPatrol.cs",
               "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\Behavior\\BaseEnemyBehavior\\LandMost\\LandEnemyPatrol.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAABdwCEAAABcAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAIAwwCEAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T06:38:22.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\PlayerMove.cs",
@@ -618,15 +652,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "LandMost.cs",
               "DocumentMoniker": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\LandMost.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\LandMost.cs",
               "ToolTip": "D:\\zhaoxing\\zhaoxing\\Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\LandMost.cs",
               "RelativeToolTip": "Assets\\Script\\Enemyai\\Enemy\\EnemyData\\BaseEnemyData\\LandMost.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAuwIEAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T05:56:16.235Z"
+              "WhenOpened": "2024-07-30T05:56:16.235Z",
+              "EditorCaption": ""
             }
           ]
         }

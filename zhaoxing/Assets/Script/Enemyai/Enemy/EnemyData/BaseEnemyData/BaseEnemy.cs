@@ -51,7 +51,7 @@ public class BaseEnemy : MonoBehaviour
     protected virtual void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.K)){
+        if(Input.GetKeyDown(KeyCode.L)){
             isdead = true;
         }
 
