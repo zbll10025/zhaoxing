@@ -57,6 +57,20 @@
   <ItemGroup>
     <Analyzer Include="D:\vistual studio 2022\1\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\MemoryPack.Generator.1.21.1\analyzers\dotnet\cs\MemoryPack.Generator.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\pt-BR\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\fr\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\de\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\ja\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hans\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\ko\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\pl\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\es\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\tr\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\ru\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hant\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\it\System.Text.Json.SourceGeneration.resources.dll" />
+    <Analyzer Include="D:\zhaoxing\zhaoxing\Assets\Packages\System.Text.Json.8.0.0\analyzers\dotnet\roslyn4.0\cs\cs\System.Text.Json.SourceGeneration.resources.dll" />
     <Analyzer Include="D:\2022.3.13f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\2022.3.13f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -479,6 +493,90 @@
     </Reference>
     <Reference Include="BehaviorDesigner.Editor">
       <HintPath>Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Configuration.FileExtensions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>Assets\Packages\System.Text.Encodings.Web.8.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng">
+      <HintPath>Assets\Packages\System.Security.Cryptography.Cng.5.0.0\lib\netstandard2.1\System.Security.Cryptography.Cng.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical">
+      <HintPath>Assets\Packages\Microsoft.Extensions.FileProviders.Physical.8.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>Assets\Packages\Microsoft.Extensions.FileProviders.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>Assets\Packages\EPPlus.7.2.2\lib\netstandard2.1\EPPlus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Configuration.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>Assets\Packages\System.ComponentModel.Annotations.5.0.0\lib\netstandard2.1\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Configuration.Json.8.0.0\lib\netstandard2.1\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>Assets\Packages\Microsoft.Extensions.FileSystemGlobbing.8.0.0\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces">
+      <HintPath>Assets\Packages\EPPlus.Interfaces.6.1.1\lib\netstandard2.1\EPPlus.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Primitives.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>Assets\Packages\System.Drawing.Common.4.7.3\lib\netstandard2.0\System.Drawing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>Assets\Packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.1\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Configuration.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>Assets\Packages\System.Text.Json.8.0.0\lib\netstandard2.0\System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs">
+      <HintPath>Assets\Packages\System.Security.Cryptography.Pkcs.8.0.0\lib\netstandard2.1\System.Security.Cryptography.Pkcs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>Assets\Packages\System.Text.Encoding.CodePages.8.0.0\lib\netstandard2.0\System.Text.Encoding.CodePages.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing">
+      <HintPath>Assets\Packages\EPPlus.System.Drawing.6.1.1\lib\netstandard2.1\EPPlus.System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets\Packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Formats.Asn1">
+      <HintPath>Assets\Packages\System.Formats.Asn1.8.0.0\lib\netstandard2.0\System.Formats.Asn1.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">

@@ -322,7 +322,7 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: 
+      JSONSerialization: '{}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -331,7 +331,7 @@ MonoBehaviour:
         unityObjects: []
         byteData: 
         byteDataArray: 
-      Version: 
+      Version: 1.7.7
   gizmoViewMode: 2
   showBehaviorDesignerGizmo: 1
 --- !u!114 &628687691429662702
@@ -364,10 +364,11 @@ MonoBehaviour:
   hitForce: 0
   AttackAreac: {fileID: 0}
   playerCheck: {fileID: 0}
-  behaviorTree: {fileID: 0}
   player: {fileID: 0}
   playerDirection: {x: 0, y: 0}
   playerDistance: 0
+  behaviorTree: {fileID: 0}
+  isHide: 0
 --- !u!50 &1575279411830773348
 Rigidbody2D:
   serializedVersion: 4

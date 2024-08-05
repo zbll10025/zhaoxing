@@ -12,6 +12,7 @@ public class BaseEnemy : MonoBehaviour
     public float currentscal;
     [Header("初始化相关")]
     public bool isRightLocalscal;
+    public int Id;
     [Header("速度")]
     public float patorlSpeed;
     public float rushSpeed;
