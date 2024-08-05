@@ -22,4 +22,4 @@ MonoBehaviour:
     path: Prefabs/Enemy/ReEnemy/Project/Rem17AttackFX
     isRightLocalscal: 1
     force: 0
-    speed: 8
+    speed: 12
